@@ -6,7 +6,7 @@ img {
     height: fit-content;
     display: grid;
     grid-template-rows: 1.5fr 1fr 3fr;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr) 2fr;
     grid-template-areas: 
         "my-img profile profile profile profile"
         "social social social social social"
@@ -78,7 +78,7 @@ img {
 }
 
 #handle {
-    background-color: #90ea90;
+    background-color: #60c960;
     border-radius: 30px;
     display: flex;
     align-items: center;
